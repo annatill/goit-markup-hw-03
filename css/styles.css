@@ -394,8 +394,10 @@ img {
 
 .button {
     margin-right: 8px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+}
+
+.button:last-child {
+    margin-right: 0;
 }
 
 .button:hover .filters-button,
@@ -403,6 +405,7 @@ img {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+
 
 
 
@@ -417,6 +420,7 @@ img {
     cursor: pointer;
     border: 1px solid var(--section-my-team-background);
     border-radius: 4px;
+    padding: 6px 22px;
 
 }
 
